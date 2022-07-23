@@ -33,6 +33,7 @@ function playRound(playerSelection){
 
   if(pScore === 5 || cScore === 5) {
     result.textContent = pScore===5? 'YOU WON!':'YOU LOST!'
+    // reset score
     playerScore.textContent = 0
     cpuScore.textContent = 0
   } 
